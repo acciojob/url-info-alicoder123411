@@ -1,1 +1,5 @@
-//your JS code here. If required.
+function len(str){
+	return str.length
+}
+const text = prompt("Enter text:");
+alert(len(text));
