@@ -1,5 +1,12 @@
-function len(str){
-	return str.length
+function len(str) {
+  return str.length;
 }
-const text = prompt("Enter text:");
-alert(len(text));
+
+// get current URL
+const url = window.location.href;
+
+// calculate length
+const length = len(url);
+
+// show result
+alert(`The length of the URL is: ${length}`);
